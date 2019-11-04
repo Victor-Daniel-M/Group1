@@ -1,0 +1,152 @@
+body {
+    background-color: #e1e1f4
+}
+
+#canvas {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    align-content: center;
+}
+
+#title {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    color: #515ca3;
+}
+
+#towers {
+    color: #ffc6c6;
+    width: 100%;
+    height: 280px;
+    display: flex;
+    margin-left: 30px;
+}
+
+.base {
+    position: relative;
+    width: 180px;
+    height: 200px;
+    border-bottom: 9px #421b1b solid;
+    border-radius: 0px;
+}
+
+.line1, .line2, .line3 {
+    padding: 2px;
+    width: 5px;
+    height: 150px;
+    background: #421b1b;
+    border-radius: 180px;
+    padding-top: 50px;
+    margin: 10px 0 0 65px;
+    position: relative;
+    align-items: center;
+}
+
+#towers li {
+    position: relative;
+    display: block;
+    height: 20px;
+    border-radius: 10px;
+    top: 170px;
+}
+
+#disc7 {
+    background-color: #8300ff;
+    width: 175px;
+    margin: -40px 0 0 -86px
+}
+
+#disc6 {
+    background-color: #8668e8;
+    width: 150px;
+    margin: -40px 0 0 -73px;
+}
+
+#disc5 {
+    background-color: #91acff;
+    width: 125px;
+    margin: -40px 0 0 -58px;
+}
+
+#disc4 {
+    background-color: #acefb7;
+    width: 100px;
+    margin: -40px 0 0 -46px;
+}
+
+#disc3 {
+    background-color: #fbff9b;
+    width: 75px;
+    margin: -40px 0 0 -34px;
+}
+
+#disc2 {
+    background-color: #ffb663;
+    width: 50px;
+    margin: -40px 0 0 -22px;
+}
+
+#disc1 {
+    background-color: #ffa8a8;
+    width: 25px;
+    margin: -40px 0 0 -10px;
+}
+
+.buttons {
+    font-family: Lato;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: #4e6e3f;
+    color: #ffffff;
+}
+
+#box {
+    text-size: 30px;
+    text-align: center;
+    height: 20px;
+    width: 50px;
+    font-family: Lato;
+}
+
+.buttons:hover {
+    opacity: 1;
+}
+
+#discno {
+    margin-bottom: 10px
+}
+
+#startBarId {
+    margin-bottom: 10px
+}
+
+#auxBarId {
+    margin-bottom: 10px
+}
+
+#destBarId {
+    margin-bottom: 10px;
+}
+
+#tohForm {
+    margin-left: 280px;
+    margin-top: 10px;
+    /* display: flex; */
+    /* align-self: center; */
+}
+
+#start {
+    margin-left: 50px;
+}
+
+#auxBox, #discnoBox, #startBox, #destBox {
+    border-radius: 5px;
+}

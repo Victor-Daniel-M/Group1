@@ -1,0 +1,420 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="linkedList.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body id="body">
+    <div id="main">
+        <div id="sideNavBar">
+            <ul id="navBarUl">
+                <li class="sideBarNavListItem" id="sideBarHeader"><span> IMPLEMENTATIONS</span></li>
+                <li class="sideBarNavListItem" id="tohItem">
+                    <a href="#" id="tohNavBarLink">Tower of Hanoi</a>
+                </li>
+                <li class="sideBarNavListItem" id="stackItem">
+                    <a href="#" id="stackNavBarLink">Stack</a>
+                </li>
+                <li class="sideBarNavListItem" id="queueItem">
+                    <a href="#" id="queueNavBarLink">Queue</a>
+                </li>
+                <li class="sideBarNavListItem" id="linkedListItem">
+                    <a href="#" id="linkedListNavBarLink">Linked List</a>
+                </li>
+                <li class="sideBarNavListItem" id="factItem">
+                    <a href="#" id="factNavBarLink">Factorial</a>
+                </li>
+                <li class="sideBarNavListItem" id="fibItem">
+                    <a href="#" id="fibNavBarLink">Fibonacci</a>
+                </li>
+                <li class="sideBarNavListItem" id="searchItem">
+                    <a href="#" id="searchNavBarLink">Search</a>
+                </li>
+                <li class="sideBarNavListItem" id="sortItem">
+                    <a href="#" id="sortNavBarLink">Sorting</a>
+                </li>
+            </ul>
+        </div>
+        <div id="formPageAndConsole">
+            <div id="formContainer">
+                <div id="headingContainer">
+                    <span id="heading">STACK</span>
+                </div>
+
+                <div id="form">
+                    <div id="toh">
+                        <br>
+                        <div id="towers">
+                            <div class="t" value="0">
+                                <ul id="t1" value="0" class="base">
+                                    <ul class="line1" id="l1"></ul>
+                                </ul>
+                                <p style="color: black; margin-left: 108px; font-size: 25px">0</p>
+                            </div>
+                            <div class="t" value="1">
+                                <ul id="t2" value="1" class="base">
+                                    <ul class="line2" id="l2"></ul>
+                                </ul>
+                                <p style="color: black; margin-left: 108px; font-size: 25px">1</p>
+                            </div>
+                            <div class="t" value="2">
+                                <ul id="t3" value="2" class="base">
+                                    <ul class="line3" id="l3">
+
+                                    </ul>
+                                </ul>
+                                <p style="color: black; margin-left: 108px; font-size: 25px">2</p>
+                            </div>
+                        </div>
+                        <div id="tohForm">
+                            <div id="discno">
+                                Number of discs*
+                                <div>
+                                    <input type="number" id="discnoBox" max="7">
+                                </div>
+                            </div>
+                            <div id="startBarId">
+                                Start Bar*
+                                <div>
+                                    <input type="number" id="startBox" max="2">
+                                </div>
+                            </div>
+                            <div id="auxBarId">
+                                Auxillary Bar*
+                                <div>
+                                    <input type="number" id="auxBox" max="2">
+                                </div>
+                            </div>
+                            <div id="destBarId">
+                                Destination Bar*
+                                <div>
+                                    <input type="number" id="destBox" max="2">
+                                </div>
+                            </div>
+                            <div id="start">
+                                <button type="button" class="buttons">
+                                    Start
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="stackForm">
+                        <div>
+                            <div id="stackName">
+                                <span>Username*</span>
+                                <div>
+                                    <input type="text" class="stackInput">
+                                    <button id="nameStackBtn" class="stackButtons">Push</button>
+                                </div>
+
+                            </div>
+
+                            <div id="stackCollege">
+                                <span>College*</span>
+                                <div>
+                                    <input type="text" class="stackInput">
+                                    <button id="colStackBtn" class="stackButtons">Push</button>
+                                </div>
+
+                            </div>
+
+                            <div id="stackProgramme">
+                                <span>Programme*</span>
+                                <div>
+                                    <input type="text" class="stackInput">
+                                    <button id="progStackBtn" class="stackButtons">Push</button>
+                                </div>
+
+                            </div>
+
+                            <div id="stackRegNo">
+                                <span>RegNo.*</span>
+                                <div>
+                                    <input type="text" class="stackInput">
+                                    <button id="regNoStackBtn" class="stackButtons">Push</button>
+                                </div>
+
+                            </div>
+
+                            <div id="stackStdNo">
+                                <span>StdNo.*</span>
+                                <div>
+                                    <input type="text" class="stackInput">
+                                    <button id="stdNoStackBtn" class="stackButtons">Push</button>
+                                </div>
+
+                            </div>
+
+                            <div id="stackCGPA">
+                                <span>CGPA.*</span>
+                                <div>
+                                    <input type="text" class="stackInput">
+                                    <button id="cgpaStackBtn" class="stackButtons">Push</button>
+                                </div>
+
+                            </div>
+
+                            <div id="stackControls">
+                                <button id="stackElementsBtn" class="stackButtons">Elements</button>
+                                <button id="topElementBtn" class="stackButtons">Top Element</button>
+                                <button id="listSizeBtn" class="stackButtons">List Size</button>
+                                <button id="stackPop" class="stackButtons">Pop</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="queueForm">
+                        <div>
+                            <div id="qUsername">
+                                <span>Username*</span>
+                                <div>
+                                    <input type="text" class="qinput">
+                                    <button id="nameEnqBtn" class="qbutton">Push</button>
+                                </div>
+                            </div>
+
+                            <div id="qCollege">
+                                <span>College*</span>
+                                <div>
+                                    <input type="text" class="qinput">
+                                    <button id="colEnqBtn" class="qbutton">Push</button>
+                                </div>
+                            </div>
+
+                            <div id="qProgramme">
+                                <span>Programme*</span>
+                                <div>
+                                    <input type="text" class="qinput">
+                                    <button id="progEnqBtn" class="qbutton">Push</button>
+                                </div>
+                            </div>
+
+                            <div id="qReg">
+                                <span>RegNo.*</span>
+                                <div>
+                                    <input type="text" class="qinput">
+                                    <button id="regNoEnqBtn" class="qbutton">Push</button>
+                                </div>
+                            </div>
+
+                            <div id="qStudNo">
+                                <span>StdNo.*</span>
+                                <div>
+                                    <input type="text" class="qinput">
+                                    <button id="stdNoEnqBtn" class="qbutton">Push</button>
+                                </div>
+                            </div>
+
+                            <div id="qCgpa">
+                                <span>CGPA.*</span>
+                                <div>
+                                    <input type="text" class="qinput">
+                                    <button id="cgpaEnqBtn" class="qbutton">Push</button>
+                                </div>
+                            </div>
+
+                            <div id="qControls">
+                                <button id="queueElementsBtn" class="qbutton">Elements</button>
+                                <button id="qSizeBtn" class="qbutton">Queue Size</button>
+                                <button id="lSizeBtn" class="qbutton">List Size</button>
+                                <button id="qEmpty" class="qbutton">Is empty</button>
+                                <button id="qFull" class="qbutton">Is full</button>
+                                <button id="deque" class="qbutton">Deque</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="doublyLinkedListForm">
+                        <div id="llName">
+                            <span>Name*</span>
+                            <div>
+                                <input type="text" class="llInput">
+                                <!-- <button id="nameEnqBtn">enque</button> -->
+                                <button class="dropbtn llButtons" onclick="nameDropdown()">insertAt
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content" id="nameDropdown">
+                                    <a href="#">Link 1</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="llCollege">
+                            <span>College*</span>
+                            <div>
+                                <input type="text" class="llInput">
+                                <button class="dropbtn llButtons" onclick="collegeDropdown()">insertAt
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content" id="collegeDropdown">
+                                    <a href="#">Link 1</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="llProg">
+                            <span>Programme*</span>
+                            <div>
+                                <input type="text" class="llInput">
+                                <button class="dropbtn llButtons" onclick="progDropdown()">insertAt
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content" id="progDropdown">
+                                    <a href="#">Link 1</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="llReg">
+                            <span>RegNo.*</span>
+                            <div>
+                                <input type="text" class="llInput">
+                                <button class="dropbtn llButtons" onclick="regDropdown()">insertAt
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content" id="regDropdown">
+                                    <a href="#">Link 1</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="llStudNo">
+                            <span>StdNo.*</span>
+                            <div>
+                                <input type="text" class="llInput">
+                                <button class="dropbtn llButtons" onclick="stdNoDropdown()">insertAt
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content" id="stdNoDropdown">
+                                    <a href="#">Link 1</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="llCGPA">
+                            <span>CGPA*</span>
+                            <div>
+                                <input type="text" class="llInput">
+                                <button class="dropbtn llButtons" onclick="cgpaDropdown()">insertAt
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content" id="cgpaDropdown">
+                                    <a href="#">Link 1</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="llControl">
+                            <button class="dropbtn llButtons" onclick="removeAtDropdown()">
+                                RemoveAt
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="removeAt-dropdown-content" id="removeAtDropdown">
+                                <a href="#">Link 1</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="factForm">
+                        <div>
+                            <div id="factNum">
+                                <span>Enter Number*</span>
+                                <div>
+                                    <input type="text" class="qinput" id="factInput">
+                                </div>
+                            </div>
+                            <div id="factControls">
+                                <button id="calcFactBtn" class="calcbutton">Calculate</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="fibForm">
+                        <div>
+                            <div id="factNum">
+                                <span>Enter Number*</span>
+                                <div>
+                                    <input type="text" class="qinput" id="fibInput">
+                                </div>
+                            </div>
+                            <div id="factControls">
+                                <button id="calcFibBtn" class="calcbutton">Calculate</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="searchForm">
+                        <div>
+                            <div id="searchArray">
+                                <span>Enter Number to add to array*</span>
+                                <div>
+                                    <input type="number" class="qinput" id="numToArrayInput">
+                                    <button id="appendBtn" class="appendButton">Append</button>
+                                </div>
+                            </div>
+                            <div id="searchOptions">
+                                <div id="numberSearch">
+                                    <span>Enter Number to search*</span>
+                                    <div>
+                                        <input type="number" class="qinput" id="numToSearch">
+                                    </div>
+                                </div>
+                                <span>Select method to search with*</span>
+                                <div>
+                                    <button id="dlSearchBtn" class="qbutton">Unordered Search</button>
+                                    <button id="IlSearchBtn" class="qbutton">Ordered Search</button>
+                                    <button id="binarySearchBtn" class="qbutton">Binary Search</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="sortForm">
+                        <div>
+                            <div id="sortArray">
+                                <span>Enter Number to add to array*</span>
+                                <div>
+                                    <input type="number" class="qinput" id="numToSortArrayInput">
+                                    <button id="sortAppendBtn" class="sortAppendButton">Append</button>
+                                </div>
+                            </div>
+                            <div id="searchOptions">
+                                <span>Select method to sort with*</span>
+                                <div>
+                                    <button id="bubbleBtn" class="qbutton">Bubble Sort</button>
+                                    <button id="selectionBtn" class="qbutton">Selection Sort</button>
+                                    <button id="insertionBtn" class="qbutton">Insertion Sort</button>
+                                    <button id="mergeSortBtn" class="qbutton">Merge Sort</button>
+                                    <button id="quickSortBtn" class="qbutton">Quick Sort</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="consoleContainer">
+                <div id="consoleHeaderContainer">
+                    <span id="consoleHeader">Console</span>
+                </div>
+                <div id="consoleOutput">
+                    <span id="consoleOutputText">Output will display here...</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="layout.js"></script>
+    <script type="text/javascript" src="linkedList.js"></script>
+    <script type="text/javascript" src="toh.js"></script>
+</body>
+
+</html>

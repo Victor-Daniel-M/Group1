@@ -1,0 +1,341 @@
+#body {
+    margin: 0px;
+    background-color: #F8F5F9;
+}
+
+#sideNavBar {
+    background-color: #FFFFFF;
+    width: 300px;
+    float: left;
+    margin-left: 85px;
+    margin-right: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(231, 230, 230);
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: #F8F5F9;
+}
+
+#formContainer {
+    background-color: #FFFFFF;
+    height: 600px;
+    width: 100%;
+    border: 1px solid rgb(231, 230, 230);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px spread;
+}
+
+#consoleContainer {
+    background-color: #FFFFFF;
+    height: 165px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+#formPageAndConsole {
+    background-color: #F8F5F9;
+    min-width: 600px;
+    max-width: 750px;
+    height: 100%;
+    margin-left: 400px;
+    margin-right: 85px;
+}
+
+#consoleHeaderContainer {
+    background-color: azure;
+    width: 100%
+}
+
+#headingContainer {
+    background-color: azure;
+    width: 100%
+}
+
+#heading {
+    font-size: 30px
+}
+
+#consoleOutput {
+    background-color: white;
+    width: 100%;
+    height: 138px;
+    font-family: 'Lucida Sans';
+}
+
+#consoleOutputText{
+    margin: 5px 0px 0px 5px;
+}
+
+#navBarUl {
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.sideBarNavListItem {
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+}
+
+#tohItem {
+    background-color: #F2EDED;
+}
+
+#searchNavBarLink{
+    text-decoration: none;
+}
+
+#sortNavBarLink{
+    text-decoration: none;
+}
+
+#fibNavBarLink {
+    text-decoration: none;
+}
+
+#factNavBarLink {
+    text-decoration: none;
+}
+
+#tohNavBarLink {
+    text-decoration: none;
+}
+
+#stackNavBarLink {
+    text-decoration: none;
+}
+
+#queueNavBarLink {
+    text-decoration: none;
+}
+
+#linkedListNavBarLink {
+    text-decoration: none;
+}
+
+#factForm {
+    display: none;
+}
+
+#fibForm {
+    display: none;
+}
+
+#stackForm {
+    display: none;
+}
+
+#queueForm {
+    display: none;
+}
+
+#searchForm {
+    display: none;
+}
+
+#sortForm {
+    display: none;
+}
+
+#doublyLinkedListForm{
+    display: none;
+}
+
+#toh{
+    display: block;
+}
+
+.sideBarNavListItem {
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+    padding: 10px;
+}
+
+#consoleHeaderContainer {
+    background-color: lightgray;
+    width: 100%;
+    height: 30px;
+    /* padding-left: 10px; */
+    padding-top: 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#consoleContainer {
+    background-color: #FFFFFF;
+    height: 165px;
+    width: 100%;
+    margin-top: 15px;
+    border: 1px solid rgb(231, 230, 230);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+#consoleHeader {
+    margin-left: 10px;
+}
+
+#headingContainer {
+    background-color: lightgray;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+}
+
+#heading {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+#sideBarHeader{
+    background-color: lightgray;
+    
+    
+}
+
+.qinput{
+    border-radius: 5px;
+}
+
+#qUsername{
+    margin: 20px;
+}
+
+#qCollege{
+    margin: 0px 0px 20px 20px;
+}
+
+#qProgramme{
+    margin: 0px 0px 20px 20px;
+}
+
+#qReg{
+    margin: 0px 0px 20px 20px;
+}
+
+#qStudNo{
+    margin: 0px 0px 20px 20px;
+}
+
+#qCgpa{
+    margin: 0px 0px 20px 20px;
+}
+
+.qbutton{
+    border-radius: 5px;
+}
+
+.stackButtons{
+    border-radius: 5px;
+}
+
+#qControls{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+
+
+
+.stackInput{
+    border-radius: 5px;
+}
+
+#stackName{
+    margin: 20px;
+}
+
+#stackCollege{
+    margin: 0px 0px 20px 20px;
+}
+
+#stackProgramme{
+    margin: 0px 0px 20px 20px;
+}
+
+#stackRegNo{
+    margin: 0px 0px 20px 20px;
+}
+
+#stackStdNo{
+    margin: 0px 0px 20px 20px;
+}
+
+#stackCGPA{
+    margin: 0px 0px 20px 20px;
+}
+
+#stackControls{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+#factNum{
+    margin: 20px;
+}
+
+#searchArray, #sortArray{
+    margin: 20px;
+}
+
+#llName{
+    margin: 20px;
+}
+
+#llCollege{
+    margin: 0px 0px 20px 20px;
+}
+
+#llProg{
+    margin: 0px 0px 20px 20px;
+}
+
+#llReg{
+    margin: 0px 0px 20px 20px;
+}
+
+#llStudNo{
+    margin: 0px 0px 20px 20px;
+}
+
+#llCGPA{
+    margin: 0px 0px 20px 20px;
+}
+
+#llControl{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.llInput{
+    border-radius: 5px;
+}
+
+.llButtons{
+    border-radius: 5px;
+}
+
+.calcbutton{
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+#appendBtn, #sortAppendBtn{
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+#searchOptions{
+    margin-left: 20px
+}
+
+#numberSearch{
+    margin-bottom: 20px
+}
+

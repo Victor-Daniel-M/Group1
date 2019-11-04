@@ -1,0 +1,91 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="linkedList.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <input type="number" placeholder="Enter array size" id="arraySizeInput">
+        <button id="submitSizeBtn">Submit Size</button>
+    </div>
+    <div>
+        <input type="text" placeholder="Enter your name" class="llInput">
+        <!-- <button id="nameEnqBtn">enque</button> -->
+        <button class="dropbtn" onclick="nameDropdown()">insertAt
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" id="nameDropdown">
+            <a href="#">Link 1</a>
+        </div>
+    </div>
+    <div>
+        <input type="text" placeholder="Enter college" class="llInput">
+        <button class="dropbtn" onclick="collegeDropdown()">insertAt
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" id="collegeDropdown">
+            <a href="#">Link 1</a>
+        </div>
+    </div>
+    <div>
+        <input type="text" placeholder="Enter programme" class="llInput">
+        <button class="dropbtn" onclick="progDropdown()">insertAt
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" id="progDropdown">
+            <a href="#">Link 1</a>
+        </div>
+    </div>
+    <div>
+        <input type="text" placeholder="Enter regNo." class="llInput">
+        <button class="dropbtn" onclick="regDropdown()">insertAt
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" id="regDropdown">
+            <a href="#">Link 1</a>
+        </div>
+    </div>
+    <div>
+        <input type="text" placeholder="Enter studentNo" class="llInput">
+        <button class="dropbtn" onclick="stdNoDropdown()">insertAt
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" id="stdNoDropdown">
+            <a href="#">Link 1</a>
+        </div>
+    </div>
+    <div>
+        <input type="text" placeholder="Enter cgpa" class="llInput">
+        <button class="dropbtn" onclick="cgpaDropdown()">insertAt
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" id="cgpaDropdown">
+            <a href="#">Link 1</a>
+        </div>
+    </div>
+    <div>
+        <button class="dropbtn" onclick="removeAtDropdown()">
+            RemoveAt
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="removeAt-dropdown-content" id="removeAtDropdown">
+            <a href="#">Link 1</a>
+        </div>
+    </div>
+    <br>
+    <div>
+        Console
+        <br>
+        <span id="console">Output</span>
+    </div>
+
+    <script type="text/javascript" src="linkedList.js"></script>
+</body>
+
+</html>
